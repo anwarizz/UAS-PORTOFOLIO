@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="header-title" style="display: flex; justify-content: space-between;">
+            <h1>JUNDIA ANWARI</h1>
+            <div style="display: flex; gap: 30px;">
+                <p style="font-size: 18px;">UAS SMT VER. 1</p>
+                <div>
+                    <ul style="display: flex; gap: 20px;">
+                        <li style="width: 20px;">
+                            <a href="mailto:j258anwari@gmail.com" target="_blank">
+                                <img src="assets/img/mail.png" alt="" style="width: 100%;">
+                            </a>
+                        </li>
+                        <li style="width: 20px;">
+                            <a href="https://github.com/anwarizz" target="_blank">
+                                <img src="assets/img/github.png" alt="" style="width: 100%;">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar">
+            <ul class="navbar-link no-dots"> <span class="li-line">|</span>
+                <li><a class="nav-li" href="#home">HOME</a></li> <span class="li-line">|</span>
+                <li><a class="nav-li" href="#about">ABOUT</a></li> <span class="li-line">|</span>
+                <li><a class="nav-li" href="#projects">PROJECTS</a></li> <span class="li-line">|</span>
+                <li><a class="nav-li" href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="large">
+        <section class="hero" id="home">
+            <div class="caption">
+                <h1>[ JUNDIA ANWARI ]</h1>
+                <h2>---- SOFTWARE DEVELOPER ----</h2>
+                <p>I'm a software developer specializing in web development, building modern and responsive web
+                    applications.
+                </p>
+                <div class="button-group">
+                    <a class="btn" href="#projects">[ VIEW MY WORK ]</a>
+                    <a class="btn" href="#contact">[ CONTACT ME ]</a>
+                </div>
+                <div class="updating blink" style="margin-top: 50px;">
+                    <span>RENDERING CONTENT</span>
+                    <span>[ 67% ]</span>
+                    <span class="loader"></span>
+                </div>
+                <p class="warning">
+                    If the update appears to be stuck,
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                        click this link
+                    </a>
+                </p>
+            </div>
+            <div class="image" style="height: max-content;">
+                <img src="assets/img/image.png" alt="">
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="projects-title">
+                <h2>[ ABOUT ME ]</h2>
+                <div class="projects-dashed">
+                    <div></div>
+                </div>
+            </div>
+            <div class="about-content">
+                <div class="about-image" style="height: max-content;">
+                    <img src="assets/img/image.png" alt="">
+                </div>
+                <div class="about-caption">
+                    <h3>HI, i'm Jundia Anwari,</h3>
+                    <br>
+                    <p>a software developer based in Indonesia. I specialize in developing modern and efficient web
+                        applications using the latest technologies. With a passion for coding and problem-solving, I
+                        strive to create seamless and user-friendly digital experiences. Welcome to my personal
+                        portfolio website!</p>
+                    <br><br>
+                    <a class="btn" href="#" target="_blank">[ ONLINE PERSONAL WEBSITE ]</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <div class="projects-title">
+                <h2>[ PROJECTS ]</h2>
+                <div class="projects-dashed">
+                    <div></div>
+                </div>
+            </div>
+            <div>
+                <div class="projects-group">
+                    <div style="flex: 1; display: flex; flex-direction: column; gap: 10px; align-items: center;">
+                        <div
+                            style="height: 170px; width: 100%; border: 5px solid rgba(255, 255, 255, 0.507); border-radius: 5px; border-bottom: 20px solid; box-shadow: 0px 0px 40px 2px rgba(0, 0, 0, 0.329);">
+                            <img style="width: 100%;" src="assets/img/project.png" alt="">
+                        </div>
+                        <p style="text-align: center;">Personal Portfolio Website</p>
+                        <button
+                            onclick="viewProject()"
+                            style="width: max-content; background: none; color: white; padding: 7px 20px; border-radius: 4px; border: 1px solid white;"
+                            class="btn">[
+                            VIEW PROJECT ]</button>
+                    </div>
+                    <div style="flex: 1; display: flex; flex-direction: column; gap: 10px; align-items: center;">
+                        <div
+                            style="height: 170px; width: 100%; border: 5px solid rgba(255, 255, 255, 0.507); border-radius: 5px; border-bottom: 20px solid; box-shadow: 0px 0px 40px 2px rgba(0, 0, 0, 0.329);">
+                            <img style="width: 100%;" src="assets/img/onlineform.webp" alt="">
+                        </div>
+                        <p style="text-align: center;">Personal Portfolio Website</p>
+                        <button
+                            onclick="viewProject()"
+                            style="width: max-content; background: none; color: white; padding: 7px 20px; border-radius: 4px; border: 1px solid white;"
+                            class="btn">[
+                            VIEW PROJECT ]</button>
+                    </div>
+                    <div style="flex: 1; display: flex; flex-direction: column; gap: 10px; align-items: center;">
+                        <div
+                            style="height: 170px; width: 100%; border: 5px solid rgba(255, 255, 255, 0.507); border-radius: 5px; border-bottom: 20px solid; box-shadow: 0px 0px 40px 2px rgba(0, 0, 0, 0.329);">
+                            <img style="width: 100%;" src="assets/img/DBTS.png" alt="">
+                        </div>
+                        <p style="text-align: center;">Personal Portfolio Website</p>
+                        <button
+                            style="width: max-content; background: none; color: white; padding: 7px 20px; border-radius: 4px; border: 1px solid white;"
+                            class="btn">[
+                            VIEW PROJECT ]</button>
+                    </div>
+                </div>
+                <div style="display: flex; gap: 10px; margin-top: 20px">
+                    <div style="flex: 0.5;">
+                        <div style="height: 55px; border-bottom: 1px dashed white;"></div>
+                    </div>
+                    <button class="btn" onclick="viewProject()"
+                        style="flex: 0.3; margin-top: 40px; width: max-content; background: none; color: white; padding: 7px 20px; border-radius: 4px; border: 1px solid white; font-size: 18px;">[
+                        VIEW MORE PROJECT ]</button>
+                    <div style="flex: 0.5;">
+                        <div style="height: 55px; border-bottom: 1px dashed white;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <br><br>
+        <hr><br>
+
+        <section class="contact" id="contact">
+            <div class="projects-title">
+                <h2>[ CONTACT ]</h2>
+                <div class="projects-dashed">
+                    <div></div>
+                </div>
+            </div>
+            <p style="font-size: 17px; color: rgba(255, 255, 255, 0.664); margin-top: 15px;  margin-bottom: 35px;">If
+                you'd like to get in touch, please feel free to contact me via the form below or through my email at
+                j258anwari@gmail.com</p>
+            <form id="contactForm" style="display: flex; flex-direction: column; gap: 15px;">
+                <input required id="username" type="text" placeholder="Name"
+                    style="color:white; background: none; border: 1px solid white; padding: 10px; border-radius: 5px;">
+                <input required type="email" placeholder="Email Address"
+                    style="color:white; background: none; border: 1px solid white; padding: 10px; border-radius: 5px;">
+                <textarea name="" id="" placeholder="Message"
+                    style="color:white; background: none; border: 1px solid white; border-radius: 5px; padding: 10px; height: 100px;"></textarea>
+                <div style="display: flex; gap: 10px; margin-top: 0px">
+                    <div style="flex: 0.5;">
+                        <div style="height: 25px; border-bottom: 1px dashed white;"></div>
+                    </div>
+                    <button type="submit" class="btn"
+                        style="flex: 0.22; margin-top: 10px; width: max-content; background: none; color: white; padding: 7px 20px; border-radius: 4px; border: 1px solid white; font-size: 18px;">[
+                        SEND MESSAGE ]</button>
+                    <div style="flex: 0.5;">
+                        <div style="height: 25px; border-bottom: 1px dashed white;"></div>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <main class="small">
+        This page is intended to be viewed on desktop.
+    </main>
+
+    <br><br>
+    <br>
+    <hr>
+
+    <footer
+        style="text-align: center; margin-top: 50px; display: flex; flex-direction: column; gap: 10px; margin-bottom: 40px;">
+        <h2>JUNDIA ANWARI</h2>
+        <p style="color: rgba(255, 255, 255, 0.555);">© 2026 Jundia Anwari. All rights reserved.</p>
+        <p style="color: rgba(255, 255, 255, 0.555);">Design inspired by the old computer BIOS.</p>
+        <div style="margin: 12px auto;">
+            <ul style="display: flex; gap: 20px;">
+                <li style="width: 20px;">
+                    <a href="mailto:j258anwari@gmail.com" target="_blank">
+                        <img src="assets/img/mail.png" alt="" style="width: 100%;">
+                    </a>
+                </li>
+                <li style="width: 20px;">
+                    <a href="https://discord.com/users/985842141676834887" target="_blank">
+                        <img src="assets/img/discord.png" alt="" style="width: 100%;">
+                    </a>
+                </li>
+                <li style="width: 20px;">
+                    <a href="https://instagram.com" target="_blank">
+                        <img src="assets/img/instagram.png" alt="" style="width: 100%;">
+                    </a>
+                </li>
+                <li style="width: 20px;">
+                    <a href="https://github.com/anwarizz" target="_blank">
+                        <img src="assets/img/github.png" alt="" style="width: 100%;">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+<script src="./assets/js/main.js"></script>
+
+</html>
