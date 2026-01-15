@@ -6,12 +6,12 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
     alert("Thank you, " + name + "!\n\nIni adalah website static, anggap saja pesannya sudah terkirim.");
 });
 
-function viewProject() {
+function viewProject(path) {
     const confirmRedirect = confirm(
-        "You will be redirected to another my online personal website.\n\nDo you want to continue?"
+        "You will be redirected to my online Github.\n\nDo you want to continue?"
     );
 
     if (confirmRedirect) {
-        window.location.href = "https://example.com";
+        window.location.href = `${path}`;
     }
 }
